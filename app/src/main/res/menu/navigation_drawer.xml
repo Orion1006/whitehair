@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group
+        android:id="@+id/tabs_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lab1"
+            android:checked="true"
+            android:title="@string/lab1" />
+        <item
+            android:id="@+id/nav_lab2"
+            android:title="@string/lab2" />
+        <item
+            android:id="@+id/nav_lab3"
+            android:title="@string/lab3" />
+        <item
+            android:id="@+id/nav_lab4"
+            android:title="@string/lab4" />
+        <item
+            android:id="@+id/nav_lab5"
+            android:title="@string/lab5" />
+        <item
+            android:id="@+id/nav_lab6"
+            android:title="@string/lab6" />
+        <item
+            android:id="@+id/nav_lab7"
+            android:title="@string/lab7" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/nav_lab1">
+
+    <fragment
+        android:id="@+id/nav_lab1"
+        android:name="com.example.labs.pages.lab1.Lab1"
+        android:label="@string/lab1"
+        tools:layout="@layout/lab1" />
+    <fragment
+        android:id="@+id/nav_lab2"
+        android:name="com.example.labs.pages.lab2.Lab2"
+        android:label="@string/lab2" />
+    <fragment
+        android:id="@+id/nav_lab3"
+        android:name="com.example.labs.pages.lab3.Lab3"
+        android:label="@string/lab3"
+        tools:layout="@layout/lab3" />
+    <fragment
+        android:id="@+id/nav_lab4"
+        android:name="com.example.labs.pages.lab4.Lab4"
+        android:label="@string/lab4" />
+    <fragment
+        android:id="@+id/nav_lab5"
+        android:name="com.example.labs.pages.lab5.Lab5"
+        android:label="@string/lab5" />
+    <fragment
+        android:id="@+id/nav_lab6"
+        android:name="com.example.labs.pages.lab6.Lab6"
+        android:label="@string/lab6"  />
+    <fragment
+        android:id="@+id/nav_lab7"
+        android:name="com.example.labs.pages.lab7.Lab7"
+        android:label="@string/lab7"  />
+</navigation>
