@@ -35,4 +35,8 @@
         android:id="@+id/nav_lab7"
         android:name="com.example.labs.pages.lab7.Lab7"
         android:label="@string/lab7"  />
+    <fragment
+        android:id="@+id/nav_lab8"
+        android:name="com.example.labs.pages.lab8.Lab8"
+        android:label="Lab 8"  />
 </navigation>

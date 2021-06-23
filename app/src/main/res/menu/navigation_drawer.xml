@@ -29,6 +29,9 @@
         <item
             android:id="@+id/nav_lab7"
             android:title="@string/lab7" />
+        <item
+            android:id="@+id/nav_lab8"
+            android:title="Lab 8" />
     </group>
 
 
